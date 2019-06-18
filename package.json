@@ -1,0 +1,14 @@
+{
+  "name": "vilken",
+  "version": "2.2.0",
+  "description": "A Discord bot made by someone bad at JS.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lyfox",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
