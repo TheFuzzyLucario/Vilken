@@ -28,7 +28,10 @@ client.on('message', message => {
         .addField('Total Memory:', `${Math.round((os.totalmem) / 1024 / 1024 / 1024, 2)} GB`)
         .addField('OS:', `${os.platform} ${os.release}`,)
       message.channel.send(aboutEmbed);
+      break;
+    
     default:
       message.reply("That's not a command!")
+      break;
   }
 })
