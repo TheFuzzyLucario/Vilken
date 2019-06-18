@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const { version, prefix, token } = require('./config.json');
+const { version, prefix } = require('./config.json');
+const {token} = require('./token.json');
 const os = require('os');
 
 client.login(token);
